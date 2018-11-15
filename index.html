@@ -2,6 +2,16 @@
 <html>
 	<head>
 		<title>Hello its a title!</title>
+		<link rel="manifest" href="/manifest.json" />
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "0408efac-1e6c-444f-a742-5c95a0c62787",
+    });
+  });
+</script>
 	</head>
 	<body>
 		<nav>
