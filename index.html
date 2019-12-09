@@ -7,12 +7,6 @@
     <script charset="UTF-8" src="//cdn.sendpulse.com/js/push/c0102508b6514faa684776c124a25e1e_1.js" async></script>
   </head>
   <body>  
-    <script type="text/javascript">
-window.addEventListener('load', function() {
-    oSpP.push("Name","Имя_посетителя_сайта");
-    oSpP.push("Email","Email_посетителя_сайта");
-});
-</script>
     <!-- start sw-rss-feed code --> 
 <script type="text/javascript"> 
 <!-- 
@@ -63,6 +57,10 @@ rssfeed_cache = "e6332ae1ccc185eb709afc59c7d93f3c";
         <img src="img/bane.svg" width="300" height="300" alt="HTML Academy">
       </a>
       <h1>AN test SP site</h1>
+      <input class="sp_push_custom_data" type="text" name="Name" value="Имя_посетителя_сайта">
+      <input class="sp_push_custom_data" type="text" name="Email" value="Email_посетителя_сайта">
+      <input class="sp_push_custom_data" type="text" name="Last_name" value="Фамилия_посетителя_сайта">
+      <input class="sp_notify_prompt" type="submit" value="Subscribe"> 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus, ligula vitae cursus sagittis, nunc eros laoreet nulla, id finibus sem arcu amet.
       </p>
